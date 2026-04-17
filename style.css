@@ -55,8 +55,8 @@
   display: flex;
   background-color: #9eb18b;
   align-items: center;
-  padding: 80px;
-  gap: 60px;
+  padding: 70px 60px;
+  gap: 65px;
 }
 
 #intro-blurb {
@@ -82,3 +82,24 @@
 #intro-image {
   height: 350px;
 }
+
+#quote-container {
+  display: flex;
+  background-color: #7e9765;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'noto-sans';
+  padding: 80px;
+}
+
+#quote {
+  font-size: 45px;
+  width: 800px;
+  text-align: center;
+}
+
+#quote-author {
+  font-size: 45px;
+}
+
