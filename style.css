@@ -103,3 +103,56 @@
   font-size: 45px;
 }
 
+#basics-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #8bb18f;
+  font-family: 'asap';
+  font-size: 35px;
+  padding: 50px 150px;
+  gap: 70px;
+}
+
+.basics-subheader {
+  font-family: 'noto-sans';
+  font-size: 32px;
+}
+
+.notes-button {
+  font-family: 'overpass'
+}
+
+#basics-heading {
+  font-family: 'noto-sans';
+  align-self: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.notes-button {
+  background-color: #25572a;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 6px;
+  align-self:last baseline;
+}
+
+.basics-def {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+}
+
+#footer {
+  dislpay: flex;
+  background-color: #737373;
+  color: white;
+  font-family: 'noto-sans';
+  font-weight: 650;
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+}
