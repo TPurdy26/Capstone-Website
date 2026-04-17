@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'asap';
+  src: url('/fonts/Asap/Asap-VariableFont_wdth\,wght.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'noto-sans';
+  src: url('/fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'overpass';
+  src: url('/fonts/Overpass/Overpass-VariableFont_wght.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('/fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('woff2');
+}
+
+@font-face {
+  font-family: 'saira';
+  src: url(/fonts/Saira/Saira-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header-container {
+    background-color: #becbb1;
+}
