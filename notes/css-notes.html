@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styling/notes-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1024">
+    <title>CSS Basics</title>
+</head>
+<body>
+    <h1 class="notes-header">CSS Basics</h1>
+    <ul class="notes-list">
+        <li>CSS styles HTML</li>
+        <li>Each rule is made up of a selector and a semicolon-separated list of declarations, with each of those declarations being made up of a property-value pair</li>
+        <li>Selectors (they refer to the HTML elements to which CSS rules apply):</li>
+        <li>Universal selector - *</li>
+        <li>Type selectors - [name of element]</li>
+        <li>Class selectors - .[name of class] (Can add multiple classes to an element by separating them with commas)</li>
+        <li>ID selectors - #[name of id]</li>
+        <li>Group separators - selectors can be separated between commas</li>
+        <li>Chaining selectors - .[chain].[specific chain] (can have things with same selectors but different subselectors)(can also do “.selector#chain” for ID selectors)</li>
+        <li>Descendant Combinator - uses the family tree from HTML, ancestor and child separated by a space (.ancestor .child)</li>
+        <li>Some properties have a default value set by the browser</li>
+        <li>color - changes an element’s text color</li>
+        <li>background-color - sets background color</li>
+        <li>font-family - declares font (can put a list for backups)</li>
+        <li>font-size - sets the size of the font</li>
+        <li>font-weight - affects boldness of the text</li>
+        <li>text-align - aligns text horizontally within an element, can use common keywords like “center”</li>
+        <li>height - sets height of an element</li>
+        <li>width - sets width of an element</li>
+        <li>External CSS - a separate file for the CSS and linking it inside of an HTML’s opening and closing "head" tags with a void "link>"element. </li>
+        <li>Example: "link rel=”stylesheet” href=”styles.css""</li>
+        <li>The href can either be an absolute url or a URL relative to the location of the HTMl file</li>
+        <li>Rank of precedence: ID , class, type (with type being at the bottom)</li>
+        <li>Things like * have no specificity, so everything takes precedence above it. </li>
+        <li>If there is no other tie-breaker, whichever came last takes precedence</li>
+        <li>Some elements can be “inherited” by child elements</li>
+    </ul>
+</body>
+</html>
