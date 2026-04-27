@@ -50,6 +50,10 @@
   font-size: 25px;
   gap: 30px;
 }
+a:visited, #link-list a {
+  color: black;
+  text-decoration: none;
+}
 
 #introduction-container {
   display: flex;
