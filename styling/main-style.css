@@ -45,6 +45,7 @@
 
 #link-list {
   display: flex;
+  align-items: center;
   font-family: 'roboto';
   list-style: none;
   font-size: 25px;
@@ -160,3 +161,30 @@ a:visited, #link-list a {
   padding: 20px;
   font-size: 24px;
 }
+
+/* This is testing the dropdown */
+.content {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  background-color: rgb(196, 195, 195);
+  padding: 12px;
+  line-height: 32px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  font-family: 'noto-sans';
+}
+
+.dropdown {
+  padding: 10px 0;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+/* .dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+} */
