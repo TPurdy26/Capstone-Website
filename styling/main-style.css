@@ -183,8 +183,10 @@ a:visited, #link-list a {
   display: block;
 }
 
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-} */
+#checkbox-one:checked + .content {
+  display: block;
+}
+
+#checkbox-two:checked + .content {
+  display: block;
+}
