@@ -179,9 +179,9 @@ a:visited, #link-list a {
   padding: 10px 0;
 }
 
-.dropdown:hover .content {
+/* .dropdown:hover .content {
   display: block;
-}
+} */
 
 #checkbox-one:checked + .content {
   display: block;
